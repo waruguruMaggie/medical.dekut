@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selector{
+    width: 350px;
+}
+#selectField{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    display: flex;
+}
+#selectField img{
+    width: 12px;
+    transition: 0.5s;
+}
+#list{
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+}
+#list li{
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#list li:hover{
+    background: rgba(255,255,255,0.7);
+}
+.hide{
+    visibility: hidden;
+}
+.rotate{
+    transform: rotate(180deg);
+}
