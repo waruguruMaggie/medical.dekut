@@ -1,0 +1,1 @@
+This project is a web application designed for managing the registration and activities of medics, along with user authentication and administrative functionalities. The application includes various PHP scripts for handling different tasks such as user sign-in, registration, data insertion, and more
